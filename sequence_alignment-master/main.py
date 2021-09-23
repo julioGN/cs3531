@@ -5,7 +5,7 @@ S2 = 'CGAU'
 
 
 def seq_alignment(seq1, seq2):
-    m = np.empty((len(S1) + 1, len(S2) + 1))
+    m = np.zeros((len(S1) + 1, len(S2) + 1))
 
     i = 0
     for matching in m:
